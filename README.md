@@ -9,8 +9,8 @@ This application is a full-stack web application that enables users to query cou
 
 ## Prerequisites
 
-- Python 3.13 or higher
-- uv (Python package manager)
+- Python 3.13 or higher (https://www.python.org/downloads/)
+- uv (Python package manager) (https://github.com/astral-sh/uv)
 - An Anthropic API key (for Claude AI)
 - **For Windows**: Use Git Bash to run the application commands - [Download Git for Windows](https://git-scm.com/downloads/win)
 
@@ -53,4 +53,5 @@ uv run uvicorn app:app --reload --port 8000
 The application will be available at:
 - Web Interface: `http://localhost:8000`
 - API Documentation: `http://localhost:8000/docs`
+
 
